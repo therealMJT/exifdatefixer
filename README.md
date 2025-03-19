@@ -18,7 +18,7 @@ Recursively scans all files in directory and its subdirectories for files lackin
 
 Supports the following file types: `.jpg`, `.png`, `.mp4`, `.gif`, `.jpeg`, `.mov`, `.avi`, `.webp`, `.tiff`, `.mkv`, `.wmv`, `.bmp`, `.heic`, `.flv`, `.m4v`, `.svg`, `.3gp`, `.ico`, `.ts`, `.mts`, `.avif`, `.apng`
 
-**Note:** It is assumed files have a `FileModifyDate` tag set. If no FileModifyDate tag is found, an `ISSUE` message will display and that file will be skipped.
+**Note:** It is assumed files have `FileModifyDate` set. If no FileModifyDate tag is found, an `ISSUE` message will display and that file will be skipped.
 
 ## Requirements
 * Linux / Bash

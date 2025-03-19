@@ -1,7 +1,7 @@
 # exifdatefixer
 A bash script for fixing photos/videos lacking the DateTimeOriginal EXIF tag.
 
-This tool fixes the issue of photos/videos which do not have the DateTimeOriginal tag changing dates to the date of transfer when moved between machines or uploaded to cloud providers (e.g. OneDrive). With DateTimeOriginal, dates will not incorrectly change.
+This tool fixes the issue of photos/videos which do not have the DateTimeOriginal tag changing dates to the date of transfer when moved between machines or uploaded to cloud providers (e.g. OneDrive). After setting DateTimeOriginal, dates will not incorrectly change.
 
 ## Install
 ```
